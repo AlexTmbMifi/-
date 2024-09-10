@@ -11,11 +11,5 @@
 
 **MyClass.my_classmethod()** - вызов метода класса. Метод класса имеет обязательный параметр cls, который ссылается на сам класс:
 
-class MyClass:
-    @classmethod
-    def my_classmethod(cls):
-        print('Это метод класса')
-        print(cls)
-
-
+def my_classmethod(cls): print(cls)
 MyClass.my_classmethod()
