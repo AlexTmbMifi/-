@@ -13,3 +13,8 @@
 
 def my_classmethod(cls): print(cls)
 MyClass.my_classmethod()
+
+Метод класса имеет доступ только к атрибутам самого класса.
+
+
+
